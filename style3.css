@@ -739,7 +739,7 @@ img[src="latest_project/ipad/elements/cam/Shape.png"] {
 }
 
 .hyperlink img:hover{
-    background-color: rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
 }
 
 .culture_values {
@@ -779,7 +779,7 @@ img[src="latest_project/ipad/elements/cam/Shape.png"] {
 .work_balance {
     position: absolute;
     top: 254px;
-    left: 185px;
+    left: 321px;
 }
 
 img[src="culture_values/Icon_Music.png"] {
@@ -791,14 +791,14 @@ img[src="culture_values/Icon_Music.png"] {
 .work_balance img[src="culture_values/Line.png"]{
     position: absolute;
     top: 40px;
-    left: 148px;
+    left: 124px;
 }
 
 .work_balance_title p{
     position: absolute;
     width: 200px;
     top: 60px;
-    left: -33px;
+    left: -44px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: rgb(34, 34, 34);
@@ -811,15 +811,23 @@ img[src="culture_values/Icon_Music.png"] {
 .work_balance_descr p{
     position: absolute;
     top: 118px;
-    left: -54px;
+    left: -82px;
     width: 270px;
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center;
+    width: 274px;
+    height: 57px;
+    z-index: 137;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~   quality ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .quality {
     position: absolute;
     top: 254px;
-    left: 565px;
+    left: 665px;
 }
 
 img[src="culture_values/Icon_Graph.png"] {
@@ -838,7 +846,7 @@ img[src="culture_values/Icon_Graph.png"] {
     position: absolute;
     width: 240px;
     top: 60px;
-    left: -33px;
+    left: -68px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: rgb(34, 34, 34);
@@ -851,8 +859,16 @@ img[src="culture_values/Icon_Graph.png"] {
 .quality_descr p{
     position: absolute;
     top: 118px;
-    left: -54px;
+    left: -89px;
     width: 270px;
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center;
+    width: 274px;
+    height: 57px;
+    z-index: 137;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ delivery ~~~~~~~~~~~~~~~~~~~~*/
@@ -860,26 +876,20 @@ img[src="culture_values/Icon_Graph.png"] {
 .deliver {
     position: absolute;
     top: 254px;
-    left: 895px;
+    left: 1008px;
 }
 
 img[src="culture_values/Icon_Star.png"] {
     position: absolute;
-    top: 21px;
-    left: 26px;
-}
-
-.deliver img[src="culture_values/Line.png"]{
-    position: absolute;
-    top: 40px;
-    left: 130px;
+    top: 19px;
+    left: 20px;
 }
 
 .deliver_title p{
     position: absolute;
     width: 240px;
     top: 60px;
-    left: -33px;
+    left: -62px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: rgb(34, 34, 34);
@@ -889,12 +899,11 @@ img[src="culture_values/Icon_Star.png"] {
     text-align: left;
     z-index: 138;
 }
-.deliver_descr p{
+.deliver_descr p {
     position: absolute;
     top: 118px;
-    left: -54px;
+    left: -95px;
     width: 270px;
-    /* do skopiowania w kazdym [XX_descr p]*/
     font-size: 14px;
     font-family: "RobotoSlab";
     color: rgb(119, 119, 119);
@@ -903,5 +912,487 @@ img[src="culture_values/Icon_Star.png"] {
     width: 274px;
     height: 57px;
     z-index: 137;
-  }
+}
+
+.clients {
+    position: absolute;
+    top: 560px;
+    height: 810px;
+    width: 1400px;
+    background-color: white;
+    
+}
+
+.clients_title p{
+    position: absolute;
+    top: 100px;
+    left: 465px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 127;
+      
+      
+}
+
+.clients_sub p{
+    position: absolute;
+    top: 170px;    
+    left: 520px;
+    font-size: 20px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center;
+    z-index: 147;
+
+}
+
+.client_1 {
+    width: 940px;
+    height: 220px;
+}
+
+.client_1 img[src="our_awesome_clients/circle.png"] {
+    position: absolute;
+    left: 230px;
+    top: 255px;
+}
+
+.client_1 img[src="our_awesome_clients/box.png"] {
+    position: absolute;
+    left: 500px;
+    top: 285px;
+}
+
+.client_1 img[src="our_awesome_clients/triangle-left.png"] {
+    position: absolute;
+    left: 481px;
+    top: 357px;
+
+}
+
+.client_1 .opinion p {
+    position: absolute;
+    top: 320px;
+    left: 542px;
+    z-index: 300;
+    width: 560px;
+    height: 70px;
+    font-size: 22px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.273;
+    text-align: center;
+}
+
+.client_1 .client_name p {
+    width: 385px;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(124, 197, 118);
+    line-height: 2;
+    text-align: center;
+    z-index: 300;
+    position: absolute;
+    top: 400px;
+    left: 603px;
+}
+
+.client_2 {
+    width: 940px;
+    height: 220px;
+}
+
+.client_2 img[src="our_awesome_clients/circle.png"] {
+    position: absolute;
+    left: 950px;
+    top: 515px;
+    z-index: 1;
+}
+
+.client_2 img[src="our_awesome_clients/box.png"] {
+    position: absolute;
+    left: 265px;
+    top: 540px;
+    z-index: 1;
+}
+
+.client_2 img[src="our_awesome_clients/triangle-right.png"] {
+    position: absolute;
+    left: 906px;
+    top: 612px;
+    z-index: 1;
+
+}
+
+.client_2 .opinion p{
+    position: absolute;
+    top: 580px;
+    left: 308px;
+    z-index: 300;
+    width: 560px;
+    height: 70px;
+    font-size: 22px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.273;
+    text-align: center;
+}
+
+.client_2 .client_name p{
+    width: 385px;
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(124, 197, 118);
+    line-height: 2;
+    text-align: center;
+    z-index: 300;
+}
+
+.contact_us {
+    position: absolute;
+    top: 3990px;
+    height: 250px;
+    width: 1400px;
+    background-color: #7cc576;
+    z-index: 300;
+}
+
+.contact_us p {
+    position: absolute;
+    top: 14px;
+    left: 264px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 300;
+}
+.contact_us input{
+    position: absolute;
+    top: 130px;
+    left: 610px;
+    height: 55px;
+    width: 180px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(124, 197, 118);
+
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.278;
+    text-align: center;
+}
+.contact_us input:hover {
+    color: #7cc576;      
+    background-color: white;  
+}
+
+.advertisement {
+    background-color: white;
+    height: 165px;
+    position: absolute;
+    top: 4240px;
+    z-index: 300;
+} 
+
+img[src="advertisement/Envato.png"] {
+    position: absolute;
+    top: 60px;
+    left: 314px;
+    z-index: 301;
+}
+img[src="advertisement/WordPress.png"] {
+    position: absolute;
+    top: 60px;
+    left: 515px;
+    z-index: 301;
+}
+img[src="advertisement/Tuts+.png"] {
+    position: absolute;
+    left: 742px;
+    z-index: 301;
+    top: 60px;
+}
+img[src="advertisement/Microlancer copy.png"] {
+    position: absolute;
+    left: 915px;
+    z-index: 301;
+    top: 60px;
+}
+
+
+
+
+
+
+.top_footer {   
+    position: absolute;
+    top: 4405px;
+    height: 365px;
+    width: 1400px;
+    background-color: black;
+    color: white;
+}
+
+.contact_us_footer .title p{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.778;
+    text-align: left;
+    width: 250px;
+    position: absolute;
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    width: 208px;
+    height: 195px;
+    margin: 0px;
+}
   
+.address .phone .email p{
+    font-size: 16px;
+    font-family: "RobotoSlab";
+    color: rgb(236, 236, 236);
+    line-height: 1.2;
+    text-align: left;
+}
+
+img[src="top_footer/location.png"] {
+    position: absolute;
+    top: 110px;
+    left: 230px;
+    margin: 0px;
+}
+
+.address p {
+    position: absolute;
+    top: 110px;
+    left: 264px;
+    width: 97px;
+    height: 72px;
+    margin: 0px;
+}
+
+img[src="top_footer/iPhone potrait.png"] {
+    position: absolute;
+    top: 182px;
+    left: 230px;
+    margin: 0px;
+}
+
+.phone p {
+    position: absolute;
+    top: 191px;
+    left: 264px;
+    margin: 0px;
+}
+
+img[src="top_footer/email.png"] {
+    position: absolute;
+    top: 233px;
+    left: 230px;
+    margin: 0px;
+}
+
+.email p {
+    position: absolute;
+    top: 233px;
+    left: 264px;
+    margin: 0px;    
+}
+
+
+.latest_posts .title p {
+    position: absolute;
+    top: 60px;
+    left: 545px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.778;
+    text-align: left;
+    margin: 0px;
+}
+
+.latest_posts img {
+    position: absolute;
+    left: 545px;
+}
+
+.article1 img[src="top_footer/News_Icon.png"]{
+    /* position: absolute; */
+    top: 110px;
+}
+
+.article2 img[src="top_footer/Photo_Icon.png"]{
+    top: 142px;
+}
+
+.article3 img[src="top_footer/News_Icon.png"]{
+    top: 185px;
+}
+
+.article4 img[src="top_footer/News_Icon.png"]{
+    top: 225px;
+}
+
+.article5 img[src="top_footer/Media_Icon.png"]{
+    top: 266px;
+}
+
+.article1 p{
+    position: absolute;
+    top: 110px;
+    left: 585px;
+    margin: 0px;
+}
+.article2 p{
+    position: absolute;
+    top: 144px;
+    left: 585px;
+    margin: 0px;
+}
+
+.article3 p{
+    position: absolute;
+    top: 185px;
+    left: 585px;
+    margin: 0px;
+}
+
+.article4 p{
+    position: absolute;
+    top: 225px;
+    left: 585px;
+    margin: 0px;
+}
+.article5 p{
+    position: absolute;
+    top: 266px;
+    left: 585px;
+    margin: 0px;
+}
+
+.latest_posts:hover{
+    color: #7cc576;
+}
+
+.latest_tweets_title p{
+    position: absolute;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.778;
+    text-align: left;
+    z-index: 46;
+    margin: 0px;
+    top: 60px;
+    left: 880px;
+}
+
+.tweet1 img{
+    position: absolute;
+    top: 110px;
+    left: 880px;
+
+}
+.tweet1 p{
+    font-size: 16px;
+    font-family: "RobotoSlab";
+    color: rgb(236, 236, 236);
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 920px;
+    top: 110px;
+    width: 220px;
+    height: 65px;
+    z-index: 45;
+    margin: 0px;
+  }
+
+.tweet1 .hash_tag p{
+    top: 175px;
+}
+.time_publication p{
+    top: 195px;
+    font-size: 14px;
+}
+
+.tweet2 img{
+    position: absolute;
+    top: 225px;
+    left: 880px;
+}
+
+.tweet2 p{
+    position: absolute;
+    top: 225px;
+    left: 920px;
+    font-size: 16px;
+    font-family: "RobotoSlab";
+    color: rgb(236, 236, 236);
+    line-height: 1.375;
+    text-align: left;
+    width: 220px;
+    height: 65px;
+    margin: 0px;
+}
+
+.tweet2 .hash_tag p{
+    top: 266px;
+}
+
+.tweet2 .time_publication p{
+    top: 291px;
+    font-size: 14px;
+}
+
+.tweet1 p:hover{
+    color: #7cc576;
+} 
+.tweet2 p:hover{
+    color: #7cc576;
+}
+.time_publication p:hover{
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    top: 365px;
+    width: 1400px;
+    height: 100px;
+    background-color: white;
+}
+img[src="top_footer/copyright.png"] {
+    position: absolute;
+    top: 50px; 
+    left: 230px;
+
+}
