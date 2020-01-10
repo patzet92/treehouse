@@ -1138,11 +1138,6 @@ img[src="advertisement/Microlancer copy.png"] {
     top: 60px;
 }
 
-
-
-
-
-
 .top_footer {   
     position: absolute;
     top: 4405px;
@@ -1395,4 +1390,102 @@ img[src="top_footer/copyright.png"] {
     top: 50px; 
     left: 230px;
 
+}
+
+.social {
+
+}
+
+.twitter .circle {
+    position: relative;
+    top: 400px;
+    left: 590px;
+    height: 41px;
+    width: 41px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 300;
+}
+
+img[src="social/Twitter.png"]{
+    position: relative;
+    top: 372px;
+    left: 602px;
+    z-index: 301;
+}
+
+.twitter .circle:hover {
+    background-color: #00aced;
+}
+.facebook {
+    position: relative;
+    top: 0px;
+    left: -9px;
+    width: 41px;
+    height: 41px;
+}
+.facebook .circle {
+    position: relative;
+    top: 339px;
+    left: 654px;
+    height: 41px;
+    width: 41px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 300;
+}
+
+img[src="social/Facebook.png"]{
+    position: relative;
+    top: 309px;
+    left: 669px;
+    z-index: 301;
+}
+
+.facebook .circle:hover {
+    background-color: #3b5998;
+}
+
+.pinterest .circle {
+    position: relative;
+    top: 298px;
+    left: 700px;
+    height: 41px;
+    width: 41px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 300;
+}
+
+img[src="social/Pinterest.png"]{
+    position: relative;
+    top: 266px;
+    left: 713px;
+    z-index: 301;
+}
+
+.pinterest .circle:hover {
+    background-color: #cb2028;
+}
+
+.google .circle {
+    position: relative;
+    top: 232px;
+    left: 756px;
+    height: 41px;
+    width: 41px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 300;
+}
+
+img[src="social/Google+.png"]{
+    position: relative;
+    top: 203px;
+    left: 769px;
+    z-index: 301;
+}
+
+.google .circle:hover {
+    background-color: #da2713;
 }
